@@ -1,0 +1,113 @@
+{
+  "Backend Engineer": [
+    "Python",
+    "FastAPI",
+    "PostgreSQL",
+    "Docker",
+    "REST APIs",
+    "Git",
+    "Redis",
+    "SQLAlchemy",
+    "SQL"
+  ],
+  "AI Engineer": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "LLMs",
+    "RAG",
+    "spaCy",
+    "Hugging Face",
+    "Machine Learning",
+    "Transformers"
+  ],
+  "Data Engineer": [
+    "Python",
+    "SQL",
+    "PostgreSQL",
+    "Apache Spark",
+    "ETL",
+    "Airflow",
+    "Snowflake",
+    "Data Modeling",
+    "Hadoop"
+  ],
+  "Frontend Engineer": [
+    "JavaScript",
+    "React",
+    "Tailwind CSS",
+    "HTML5",
+    "CSS3",
+    "TypeScript",
+    "Vite",
+    "Redux",
+    "CSS"
+  ],
+  "Fullstack Engineer": [
+    "React",
+    "Node.js",
+    "Python",
+    "PostgreSQL",
+    "REST APIs",
+    "Git",
+    "Docker",
+    "JavaScript",
+    "TypeScript",
+    "FastAPI"
+  ],
+  "DevOps Engineer": [
+    "Docker",
+    "Kubernetes",
+    "AWS",
+    "CI/CD",
+    "Terraform",
+    "Linux",
+    "Git",
+    "Ansible",
+    "Nginx"
+  ],
+  "Mobile Engineer": [
+    "React Native",
+    "Flutter",
+    "Swift",
+    "Kotlin",
+    "Mobile UI",
+    "REST APIs",
+    "Git",
+    "iOS",
+    "Android"
+  ],
+  "QA Engineer": [
+    "Selenium",
+    "Jest",
+    "Pytest",
+    "Manual Testing",
+    "Automated Testing",
+    "Postman",
+    "Git",
+    "Cypress",
+    "API Testing"
+  ],
+  "Security Engineer": [
+    "Penetration Testing",
+    "Cryptography",
+    "OWASP",
+    "Network Security",
+    "IAM",
+    "Linux",
+    "Wireshark",
+    "Python",
+    "Vulnerability Assessment"
+  ],
+  "Cloud Architect": [
+    "AWS",
+    "Azure",
+    "GCP",
+    "Cloud Security",
+    "Microservices",
+    "Kubernetes",
+    "Terraform",
+    "Docker",
+    "Load Balancing"
+  ]
+}
