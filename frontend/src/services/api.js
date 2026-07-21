@@ -1,10 +1,18 @@
 import axios from "axios";
 
 // Target the FastAPI backend server URL
-const API_URL = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000/api/v1";
+let rawUrl = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000/api/v1";
+
+// Clean up trailing slashes
+rawUrl = rawUrl.replace(/\/+$/, "");
+
+// Automatically append /api/v1 if only the base server host URL was provided
+if (!rawUrl.endsWith("/api/v1")) {
+  rawUrl = `${rawUrl}/api/v1`;
+}
 
 const apiClient = axios.create({
-  baseURL: API_URL,
+  baseURL: rawUrl,
   headers: {
     "Content-Type": "application/json",
   },
